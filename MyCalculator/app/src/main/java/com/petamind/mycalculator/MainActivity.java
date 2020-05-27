@@ -28,7 +28,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
                 break;
             case "=":
-                //for tomorrow
+                Infix infix = new Infix();
+                String expression = resultTV.getText().toString().replaceAll("x", "*");
+                String result = "" + infix.infix(expression);
+                resultTV.setText(result);
                 break;
             default:
                 String toAppendString = tv.getText().toString();
