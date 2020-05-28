@@ -106,7 +106,6 @@ public class Infix
             if (op2 == 0.0) {
                 throw new ArithmeticException("op2 must not be 0");
             }
-
             return "" + (op1 / op2);
         }
 

@@ -15,6 +15,7 @@
         style="@style/result_style"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:padding="8dp"
          />
     <TextView android:layout_width="0dp"
         android:layout_height="0dp"
@@ -33,7 +34,7 @@
     <TextView android:layout_width="0dp"
         android:layout_height="0dp"
         style="@style/cell_style"
-        android:text="x"
+        android:text="×"
         />
 <!--Second row-->
     <TextView android:layout_width="0dp"
